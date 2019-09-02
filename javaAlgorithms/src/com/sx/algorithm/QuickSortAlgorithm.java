@@ -1,5 +1,12 @@
 package com.sx.algorithm;
 
+/**
+ * 平均时间复杂度O(nlog2n)
+ * 最坏时间复杂度O(n2)
+ * 最好时间复杂度O(nlog2n)
+ * 空间复杂度O(nlog2n)
+ * 不稳定
+ */
 public class QuickSortAlgorithm {
     public static void main(String[] args) {
         int[] arr = {10,7,2,4,7,62,3,4,2,1,8,9,19};
